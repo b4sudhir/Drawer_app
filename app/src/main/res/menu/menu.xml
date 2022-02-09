@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Switch"
+            android:icon="@drawable/search"
+            android:id="@+id/main_page"
+            />
+        <item
+            android:title="Add Device"
+            android:icon="@drawable/basket"
+            android:id="@+id/add_device"
+            />
+        <item
+            android:title="Settings"
+            android:icon="@drawable/favorite"
+            android:id="@+id/setting"
+            />
+        <item
+            android:title="Log File"
+            android:icon="@drawable/promo_code"
+            android:id="@+id/log_file"
+            />
+    </group>
+    <item android:title=""
+        >
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:title="Support"
+                    android:icon="@drawable/setting"
+                    android:id="@+id/support"
+                    />
+                <item
+                    android:title="Exit"
+                    android:icon="@drawable/support"
+                    android:id="@+id/exit"
+                    />
+            </group>
+        </menu>
+    </item>
+</menu>
